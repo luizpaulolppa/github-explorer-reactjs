@@ -1,0 +1,67 @@
+.user-container {
+  
+  .box-options {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    .box-option {
+      cursor: pointer;
+
+      & + .box-option {
+        margin-left: 2rem;
+      }
+
+      strong {
+        display: block;
+        font-size: 36px;
+        color: #6c6c80;
+      }
+  
+      p {
+        display: block;
+        margin-top: 4px;
+        color: #6c6c80;
+      }
+
+      &.active {
+        strong {
+          color: #3d3d4d;
+        }
+    
+        p {
+          color: #3d3d4d;
+        }
+      }
+    }
+  }
+
+  .item-repo {
+    height: 100px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    h3 {
+      font-size: 20px;
+      color: #3d3d4d;
+    }
+
+    p {
+      font-size: 18px;
+      color: #a8a8b3;
+      margin-top: 4px;
+    }
+
+    &:hover {
+      border: 2px solid #F6f6f6;
+      opacity: 0.9;
+    }
+  }
+}

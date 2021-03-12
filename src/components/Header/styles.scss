@@ -1,0 +1,23 @@
+.header-container {
+  img {
+    width: 60px;
+  }
+
+  .logo-user {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+    img {
+      width: 1.5rem;
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+  }
+}
