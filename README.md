@@ -7,7 +7,7 @@
 ### 1 - Clone este repositório em um diretório do seu computador.
 ### 2 - Dentro da pasta execute o comando `yarn install`
 ### 3 - Dentro da pasta execute o comando `yarn start`
-### 4 - Será escolhido uma porta e abrirá o navegador padão com a aplicação.
+### 4 - Será escolhida uma porta e abrirá o navegador padrão com a aplicação.
 #
 ## Gerar build para deploy
 ### 1 - Dentro da pasta execute o comando `yarn build`
